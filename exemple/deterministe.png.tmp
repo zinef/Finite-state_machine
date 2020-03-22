@@ -1,0 +1,16 @@
+digraph graphe {
+    rankdir="LR";
+
+    // States (3)
+    node [shape = point ];     __Qi__ // Initial state
+    node [shape=circle];       Q_0 [label=s0];
+    node [shape=doublecircle]; Q_1 [label=s01];
+    node [shape=doublecircle]; Q_2 [label=s1];
+
+    // Transitions
+    __Qi__ -> Q_0; // Initial state arrow
+    Q_0 -> Q_1 [label=a];
+    Q_1 -> Q_1 [label=a];
+    Q_1 -> Q_2 [label=b];
+    Q_2 -> Q_2 [label=b];
+}
