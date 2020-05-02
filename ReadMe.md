@@ -1,6 +1,6 @@
-TP THP 2019/2020 FODIL Zine-eddine Groupe 9
-->Dans le fichier "automates.py" figure  une implementation des automate d'etats finis.
-->Les fonctionnalités implementer sont les suivantes:
+#TP THP 2019/2020 FODIL Zine-eddine Groupe 9
+##->Dans le fichier "automates.py" figure  une implementation des automate d'etats finis.
+##->Les fonctionnalités implementer sont les suivantes:
 	1-Chargement de l'automate a partire de la ligne de commande.
 	2-Affichage de l'automate sous format PNG aprés transformation sous format DOT (DOT language pour la visualisation des graphes , dans ce cas un digraph "graphe orienté" ).
 	3-Réduction d'un automate.
